@@ -2,17 +2,6 @@
 
 Aplicação estática para acompanhar tarefas domésticas e a preparação semanal para o sábado.
 
-## Publicar em um repositório separado
-
-1. No GitHub, crie um repositório chamado `estarei-pronta-no-sabado`.
-2. Deixe-o público (necessário para GitHub Pages gratuito em contas que não oferecem Pages privado).
-3. Envie os arquivos `index.html`, `style.css` e `app.js` para a raiz do repositório.
-4. Abra **Settings → Pages**.
-5. Em **Build and deployment**, selecione **Deploy from a branch**.
-6. Escolha a branch `main` e a pasta `/ (root)`, depois clique em **Save**.
-7. Aguarde a publicação. O endereço será semelhante a:
-   `https://SEU-USUARIO.github.io/estarei-pronta-no-sabado/`
-
 ## Como o salvamento funciona
 
 - As marcações são salvas automaticamente no `localStorage` do navegador.
