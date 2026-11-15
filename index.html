@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#526b58">
+  <meta name="description" content="Organize a casa durante a semana e receba o sábado com alegria.">
+  <title>Estarei Pronta no Sábado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-mark" aria-hidden="true">✦</div>
+    <div>
+      <p class="eyebrow">ROTINA DA CASA · FÉ · DESCANSO</p>
+      <h1>Estarei Pronta no Sábado</h1>
+      <p class="subtitle">Uma semana organizada para receber o sábado com alegria.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="welcome-card">
+      <div>
+        <p class="eyebrow" id="today-label">SUA ROTINA</p>
+        <h2 id="date-title">Pequenos passos, todos os dias.</h2>
+        <p id="daily-message">Cuide do essencial sem deixar tudo para sexta-feira.</p>
+      </div>
+      <div class="progress-ring" aria-label="Progresso do dia">
+        <strong id="progress-number">0%</strong>
+        <span>concluído</span>
+      </div>
+    </section>
+
+    <nav class="week-nav" aria-label="Dias da semana" id="week-nav"></nav>
+
+    <section class="progress-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">ACOMPANHAMENTO</p>
+          <h2>Progresso do dia</h2>
+        </div>
+        <span id="task-count" class="muted">0 de 0 tarefas</span>
+      </div>
+      <div class="progress-track"><div id="progress-bar"></div></div>
+    </section>
+
+    <section class="tasks-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CHECKLIST</p>
+          <h2 id="tasks-title">Tarefas de hoje</h2>
+        </div>
+        <button class="text-button" id="reset-day" type="button">Desmarcar o dia</button>
+      </div>
+      <div id="task-groups" class="task-groups"></div>
+    </section>
+
+    <section class="verse-card">
+      <p class="eyebrow">PARA LEMBRAR</p>
+      <blockquote>“Se chamares ao sábado deleitoso e santo dia do Senhor, digno de honra...”</blockquote>
+      <p class="verse-reference">Isaías 58:13</p>
+      <p class="verse-note">A preparação da casa deve ajudar você a viver o sábado como um dia de deleite, não como um fardo.</p>
+    </section>
+
+    <footer>
+      <p>Seu progresso é salvo neste navegador automaticamente.</p>
+      <p id="storage-note">As marcações diárias recomeçam quando a data local muda.</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
